@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:orientation="horizontal" android:background="@color/cardview_shadow_start_color">
+
+    <TextView
+        android:id="@+id/tvName1"
+        android:layout_width="0dp" android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivIcon" android:layout_margin="10dp"
+        android:text="التخصص" />
+    <TextView
+        android:id="@+id/tvName2"
+        android:layout_width="0dp" android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivIcon" android:layout_margin="10dp"
+        android:text="الدرجة العملية" />
+    <TextView
+        android:id="@+id/tvName3"
+        android:layout_width="0dp" android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivIcon" android:layout_margin="10dp"
+        android:text="مفتاح القبول" />
+    <TextView
+        android:id="@+id/tvName4"
+        android:layout_width="0dp" android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivIcon" android:layout_margin="10dp"
+        android:text="نوع الشهادة الثانوية" />
+    <TextView
+        android:id="@+id/tvName5"
+        android:layout_width="0dp" android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivIcon" android:layout_margin="10dp"
+        android:text="سعر الساعة بالدينار" />
+    <TextView
+        android:id="@+id/tvName6"
+        android:layout_width="0dp" android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivIcon" android:layout_margin="10dp"
+        android:text="نسبة المنحة" />
+    <TextView
+        android:id="@+id/tvName7"
+        android:layout_width="0dp" android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivIcon" android:layout_margin="10dp"
+        android:text="سعر الساعة بعد المنحة" />
+    <TextView
+        android:id="@+id/tvName8"
+        android:layout_width="0dp" android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivIcon" android:layout_margin="10dp"
+        android:text="شروط المنحة" />
+</LinearLayout>
